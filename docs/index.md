@@ -21,4 +21,4 @@ ERM model developed by Benny Istanto and [Prof. Rizaldi Boer](https://scholar.go
 For further information about Extreme Rainfall Monitoring, please contact:
 
 **Benny Istanto**<br>
-https://github.com/bennyistanto<br>
+[https://github.com/bennyistanto](https://github.com/bennyistanto)<br>
