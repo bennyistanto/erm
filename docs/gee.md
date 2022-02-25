@@ -1430,4 +1430,4 @@ End of script. Find the complete code via this link [https://code.earthengine.go
 
 **Notes**
 
-The GEE script is written by Benny Istanto and Ridwan Mulyadi. Both are working as Climate Analyst and System Developer at VAM unit, UN WFP Indonesia.
+The GEE script is written by Benny Istanto and Ridwan Mulyadi. Both are working as Climate Analyst and System Developer at VAM unit, UN WFP Indonesia. UPDATE: Benny Istanto is no longer with WFP since August 2021.

@@ -29,10 +29,27 @@
 : NRT inform about the latest condition, 1 to 5 days in the past as of selected date. While the FCT inform the situation that will happen in the 1 - 5 days ahead as of selected date.
 
 **How to read ERM output?**
-: Every computation/single process on ERM will produce 4 outputs: (1) rainfall accumulation, (2) rainfall exceeding the threshold, (3) Likelihood of flooding and (4) flood alert. All are available for both near real-time and forecast.
+: Every computation/single process on ERM will produce 4 outputs: 
+
+	- (1) rainfall accumulation,<br>
+	- (2) rainfall exceeding the threshold,<br>
+	- (3) Likelihood of flooding, and<br>
+	- (4) flood alert. All are available for both near real-time and forecast.<br>
+
 : Rainfall accumulation is the total rainfall for day(s) of simulation selected as of the selected date. The classification value is following the legend on sidebar.
-: Rainfall exceeding the threshold categorized into 4 class: (1) ![#ffffcc](https://via.placeholder.com/15/ffffcc/000000?text=+) Moderate, exceeding percentile 50. (2) ![#a1dab4](https://via.placeholder.com/15/a1dab4/000000?text=+) Heavy, exceeding percentile 80. (3) ![#41b6c4](https://via.placeholder.com/15/41b6c4/000000?text=+) Intense, exceeding percentile 90. (4) ![#225ea8](https://via.placeholder.com/15/225ea8/000000?text=+) Extreme, exceeding percentile 96. See [The Threshold](../eit/#the-threshold)
-: Likelihood of flooding is based in Historical Flood Occurrence data, generated using JRC Global Surface Water and combine with maximum rainfall by months. See [Focal Linear Regression](../rof/#focal-linear-regression). Categorized into 3 class: (1) ![#f7fcb9](https://via.placeholder.com/15/f7fcb9/000000?text=+) Low, has probability of flooding less than 60%. (2) ![#addd8e](https://via.placeholder.com/15/addd8e/000000?text=+) Moderate, has probability of flooding between 60-80%. (3) ![#31a354](https://via.placeholder.com/15/31a354/000000?text=+) High, has probability of flooding greater than 80% or we can say this area are frequently flooded.
+: Rainfall exceeding the threshold categorized into 4 class: 
+
+	- (1) ![#ffffcc](https://via.placeholder.com/15/ffffcc/000000?text=+) Moderate, exceeding percentile 50.<br>
+	- (2) ![#a1dab4](https://via.placeholder.com/15/a1dab4/000000?text=+) Heavy, exceeding percentile 80.<br>
+	- (3) ![#41b6c4](https://via.placeholder.com/15/41b6c4/000000?text=+) Intense, exceeding percentile 90.<br>
+	- (4) ![#225ea8](https://via.placeholder.com/15/225ea8/000000?text=+) Extreme, exceeding percentile 96. See [The Threshold](../eit/#the-threshold)<br>
+
+: Likelihood of flooding is based in Historical Flood Occurrence data, generated using JRC Global Surface Water and combine with maximum rainfall by months. See [Focal Linear Regression](../rof/#focal-linear-regression). Categorized into 3 class: 
+
+	- (1) ![#f7fcb9](https://via.placeholder.com/15/f7fcb9/000000?text=+) Low, has probability of flooding less than 60%.<br>
+	- (2) ![#addd8e](https://via.placeholder.com/15/addd8e/000000?text=+) Moderate, has probability of flooding between 60-80%.<br>
+	- (3) ![#31a354](https://via.placeholder.com/15/31a354/000000?text=+) High, has probability of flooding greater than 80% or we can say this area are frequently flooded.<br>
+	
 : Flood alert visualized into 4 categories: Green, Yellow, Orange and Red. See below explanation.
 
 **What do the colors on flood alert represent?**
