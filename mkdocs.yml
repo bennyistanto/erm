@@ -1,8 +1,8 @@
 site_name: Extreme rainfall monitoring
 site_description: Extreme rainfall monitoring, will it trigger a flood?
-site_url: "https://wfpidn.github.io/ERM"
-repo_url: https://github.com/wfpidn/ERM
-repo_name: wfpidn/ERM
+site_url: "https://bennyistanto.github.io/erm/"
+repo_url: https://github.com/bennyistanto/erm
+repo_name: bennyistanto/erm
 
 
 theme:
