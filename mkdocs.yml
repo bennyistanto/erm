@@ -1,0 +1,110 @@
+site_name: Extreme rainfall monitoring
+site_description: Extreme rainfall monitoring, will it trigger a flood?
+site_url: "https://wfpidn.github.io/ERM"
+repo_url: https://github.com/wfpidn/ERM
+repo_name: wfpidn/ERM
+
+
+theme:
+  name: material
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: deep orange
+      accent: deep orange
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode
+  icon:
+    repo: fontawesome/brands/github
+    logo: material/library
+    favicon: assets/images/favicon.png
+  font:
+    text: Roboto
+    code: Roboto Mono
+  features:
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - toc.integrate
+
+plugins:
+  - search:
+      separator: '[\s\-\.]+'
+
+extra_javascript:
+  - javascripts/config.js
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+
+extra:
+  analytics:
+    provider: google
+    property: G-8V6EDJKQ3M
+
+markdown_extensions:
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.critic
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.mark
+  - pymdownx.tilde
+  - footnotes
+  - admonition
+  - pymdownx.tabbed
+  - pymdownx.keys
+  - pymdownx.highlight:
+      use_pygments: true
+      linenums: true
+      linenums_style: pymdownx-inline
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.superfences
+  - pymdownx.snippets
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.tasklist:
+      clickable_checkbox: false
+      custom_checkbox: true
+  - def_list
+
+
+nav:
+    - About: index.md
+    - Revision History: history.md
+    - FAQ: faq.md
+    - Overview: 
+        - Hydrometeorological Disasters: hd.md
+        - Remote Sensing Precipitation: rsp.md
+        - Data: data.md
+    - Methodology: 
+        - Developing event-identification threshold: eit.md
+        - Find areas at risk of flooding: rof.md
+        - Impact analysis: impact.md
+        - Evaluating alert quality: eaq.md
+        - Novelty, limitation and constraint: nlc.md
+        - Example case: case.md
+    - How-to?: 
+        - Pre-downloaded and processed data: pre.md
+        - Acquire IMERG data: imerg.md
+        - Acquire GEFS data: gefs.md
+        - Extreme rainfall calculation: erc.md
+    - Implementation:
+        - Google Earth Engine: gee.md
+        - Example: example.md
+        - Demo: demo.md
+    - Development Plan:
+        - Summary: devplan.md
+        - Landslide monitoring and early warning: ls.md
+        - Surface runoff accumulation: runoff.md
