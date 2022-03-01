@@ -2,7 +2,7 @@
 
 ## Welcome
 
-This is a fork repository from https://github.com/wfpidn/ERM which originally I wrote it during my service with WFP, and since I left the agency this guideline no longer maintained. So I will continue to update this at my personal Github repo.
+This is a fork repository from [https://github.com/wfpidn/ERM](https://github.com/wfpidn/ERM) which originally developed during my service with WFP, and since I left the agency this guideline no longer maintained. So I will continue to update this at my personal Github repo.
 
 Extreme Rainfall Monitoring (ERM) is an experimental tool developed by the United Nations [World Food Programme](https://www.wfp.org/countries/indonesia) in Indonesia written in [Google Earth Engine](https://earthengine.google.com) (GEE) platform. ERM are able to inform where is the estimated location of extreme rainfall and its impact to population and crop in the last 5-days and forecast up to 5-days ahead based on selected date.
 
