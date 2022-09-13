@@ -1426,7 +1426,7 @@ function downloadMap() {
 
 ```
 
-End of script. Find the complete code via this link [https://code.earthengine.google.com/9726f90319b509450dc752a02663c066](https://code.earthengine.google.com/9726f90319b509450dc752a02663c066)
+End of script. Find the complete code via this link [https://code.earthengine.google.com/fb7cc9b41222334c47be6d6b23d70829](https://code.earthengine.google.com/fb7cc9b41222334c47be6d6b23d70829)
 
 **Notes**
 

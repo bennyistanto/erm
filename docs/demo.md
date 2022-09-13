@@ -2,7 +2,7 @@
 
 You can access the demo via below link:
 
-[https://bennyistanto.users.earthengine.app/view/wfpid-erm](https://bennyistanto.users.earthengine.app/view/wfpid-erm)
+[https://bennyistanto.users.earthengine.app/view/erm](https://bennyistanto.users.earthengine.app/view/erm)
 
 ## How to use?
 
@@ -14,6 +14,6 @@ It's very easy.
 
 Wait for a minutes, you will get the result.
 
-This app does not have download feature for all layer output, it's only accessible via GEE code user interface. To access this feature you must have an access to GEE platform, then visit [https://code.earthengine.google.com/9726f90319b509450dc752a02663c066](https://code.earthengine.google.com/9726f90319b509450dc752a02663c066).
+This app does not have download feature for all layer output, it's only accessible via GEE code user interface. To access this feature you must have an access to GEE platform, then visit [https://code.earthengine.google.com/fb7cc9b41222334c47be6d6b23d70829](https://code.earthengine.google.com/fb7cc9b41222334c47be6d6b23d70829).
 
 If you does not have GEE account, please sign up via this link: [https://earthengine.google.com/signup/](https://earthengine.google.com/signup/)
