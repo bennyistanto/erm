@@ -1,8 +1,7 @@
 # Frequently Asked Questions
 
 **What is ERM?**
-: ERM is an experimental tool developed by the United Nations [World Food Programme](https://www.wfp.org/countries/indonesia) in Indonesia written in [Google Earth Engine](https://earthengine.google.com) (GEE) platform to monitor extreme rainfall that could trigger a flood, and the impact to population and cropland.
-: ERM module is part of [VAMPIRE](http://prism-dev.wfp.or.id:3001) (now called PRISM) hazard features, a platform developed by WFP to support adaptive social protection in Indonesia.
+: ERM is an experimental tool written in [Google Earth Engine](https://earthengine.google.com) (GEE) platform to monitor extreme rainfall that could trigger a flood, and the impact to population and cropland.
 
 **What is the main input for ERM?**
 : GPM IMERG for near real-time rainfall monitoring and NOAA GFS for rainfall forecast.
